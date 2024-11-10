@@ -17,7 +17,7 @@ bool czypierwsza(int p)
 			return false;
 	}*/
 
-	return tab[p];
+	return tab[p]; // zwraca true albo false dla elementu tab[p]
 }
 
 void sito()
@@ -38,7 +38,7 @@ void sito()
 			// usuwanie wielokrtonosci i
 			for (int j = i * 2; j <= MAX; j += i)
 			{
-				tab[i] = true;
+				tab[j] = true;
 			}
 		}
 	}
