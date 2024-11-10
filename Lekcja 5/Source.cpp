@@ -50,6 +50,8 @@ int main()
 	
 	sito(); // odpalamy sito
 	
+	cin >> t;
+
 	while (t--)
 	{
 		cin>>p;
